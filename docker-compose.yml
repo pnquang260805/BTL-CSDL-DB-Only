@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db_mysql:
+    image: mysql:9.2.0
+    container_name: db_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ptit
+      MYSQL_USER: ptit
+      MYSQL_PASSWORD: ptit
+      MYSQL_DATABASE: e_commerce
+    volumes:
+      - ./docker_data:/var/lib/mysql
+    ports:
+      - "3306:3306"

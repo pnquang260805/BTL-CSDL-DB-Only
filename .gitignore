@@ -1,0 +1,5 @@
+/venv
+/docker_data/*
+*/test*
+*.bkp
+*.drawio
