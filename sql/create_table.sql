@@ -40,12 +40,13 @@ CREATE TABLE IF NOT EXISTS orders(
     order_id INT AUTO_INCREMENT NOT NULL,
     customer_id INT NOT NULL,
     order_date DATE,
-    total_amount DECIMAL(2,0),
+    total_amount DECIMAL(10,2),
     status VARCHAR(20),
 
     PRIMARY KEY(order_id),
     FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
 );
+
 
 CREATE TABLE IF NOT EXISTS suppliers(
     supplier_id INT NOT NULL AUTO_INCREMENT,
