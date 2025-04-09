@@ -1,6 +1,6 @@
 /venv
 /docker_data/*
-!docker_data
+!/docker_data/.gitkeep
 */test*
 *.bkp
 *.drawio
