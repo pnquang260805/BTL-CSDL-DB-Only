@@ -34,4 +34,6 @@ docker-compose up -d
 ```
 Kết nối với MySQL bằng username ```ptit``` và mật khẩu ```ptit```
 
-Sẽ update tiếp
+Vào file src/generator.ipynb chọn ```Run All`` để tiến hành insert dữ liệu vào database
+
+Các kịch bản truy vấn sẽ update sau
