@@ -28,6 +28,11 @@ Chuyển đường dẫn đển thư mục BTL-CSDL-DB-Only
 ```
 cd ./BTL-CSDL-DB-Only
 ```
+Cài đặt các thư viện cần thiết
+```
+pip install -r "./requirements.txt"
+```
+
 Bật Docker và chạy file docker-compose.yml
 ```
 docker-compose up -d
