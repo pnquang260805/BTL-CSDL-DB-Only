@@ -51,14 +51,14 @@ CREATE TABLE IF NOT EXISTS orders(
 CREATE TABLE IF NOT EXISTS suppliers(
     supplier_id INT NOT NULL AUTO_INCREMENT,
     supplier_name VARCHAR(255) NOT NULL,
-    country VARCHAR(50),
+    country VARCHAR(255),
 
     PRIMARY KEY(supplier_id)
 );
 
 CREATE TABLE IF NOT EXISTS categories(
     category_id INT NOT NULL AUTO_INCREMENT,
-    category_name VARCHAR(50),
+    category_name VARCHAR(100),
     description VARCHAR(255),
     tag VARCHAR(25),
 
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS categories(
 CREATE TABLE IF NOT EXISTS products(
     product_id INT AUTO_INCREMENT NOT NULL,
     product_name VARCHAR(255) NOT NULL,
-    price DECIMAL(2,0),
+    price DECIMAL(10, 2),
     quantity_in_stock INT,
     image_url VARCHAR(255),
     supplier_id INT NOT NULL,
