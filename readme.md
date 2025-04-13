@@ -28,6 +28,11 @@ Chuyển đường dẫn đển thư mục BTL-CSDL-DB-Only
 ```
 cd ./BTL-CSDL-DB-Only
 ```
+Cài đặt các thư viện cần thiết
+```
+pip install -r "./requirements.txt"
+```
+
 Bật Docker và chạy file docker-compose.yml
 ```
 docker-compose up -d
@@ -36,6 +41,10 @@ Kết nối với MySQL bằng username ```ptit``` và mật khẩu ```ptit```
 
 Vào file sql/create_table và tiến hành tạo bảng
 
+<<<<<<< HEAD
 sau khi tạo các bảng, vào file src/generator.ipynb chọn ```Run All`` để tiến hành insert dữ liệu vào database
+=======
+Vào file src/generator.ipynb chọn ```Run All``` để tiến hành insert dữ liệu vào database
+>>>>>>> d1004793652ac963a5fada1a5fa2a319a7f7093d
 
 Các kịch bản truy vấn sẽ update sau
