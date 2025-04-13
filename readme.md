@@ -36,6 +36,6 @@ Kết nối với MySQL bằng username ```ptit``` và mật khẩu ```ptit```
 
 Vào file sql/create_table và tiến hành tạo bảng
 
-Vào file src/generator.ipynb chọn ```Run All`` để tiến hành insert dữ liệu vào database
+sau khi tạo các bảng, vào file src/generator.ipynb chọn ```Run All`` để tiến hành insert dữ liệu vào database
 
 Các kịch bản truy vấn sẽ update sau
