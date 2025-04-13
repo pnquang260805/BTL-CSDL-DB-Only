@@ -1,3 +1,5 @@
+USE e_commerce;
+
 CREATE TABLE IF NOT EXISTS countries(
     country_id INT AUTO_INCREMENT NOT NULL,
     country_name VARCHAR(255),
