@@ -37,14 +37,10 @@ Bật Docker và chạy file docker-compose.yml
 ```
 docker-compose up -d
 ```
-Kết nối với MySQL bằng username ```ptit``` và mật khẩu ```ptit```
+Kết nối với MySQL bằng username ```root``` và mật khẩu ```ptit``` ở port 3307
 
 Vào file sql/create_table và tiến hành tạo bảng
 
-<<<<<<< HEAD
-sau khi tạo các bảng, vào file src/generator.ipynb chọn ```Run All`` để tiến hành insert dữ liệu vào database
-=======
 Vào file src/generator.ipynb chọn ```Run All``` để tiến hành insert dữ liệu vào database
->>>>>>> d1004793652ac963a5fada1a5fa2a319a7f7093d
 
 Các kịch bản truy vấn sẽ update sau
